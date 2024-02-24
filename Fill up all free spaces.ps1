@@ -1,0 +1,1 @@
+$space = $(get-WmiObject win32_logicaldisk | where-object -Property DeviceID -EQ "C:" | select -ExpandProperty FreeSpace) ; fsutil file createNew yourFileName $space

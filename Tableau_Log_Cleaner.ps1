@@ -1,0 +1,1 @@
+﻿tsm maintenance cleanup -l --log-files-retention 2
